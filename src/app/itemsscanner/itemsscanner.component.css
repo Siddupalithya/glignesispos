@@ -7,7 +7,7 @@ body {
 
 .header {
   background-color: #66CCC0;
-  padding: 30px;
+  padding: 20px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -46,10 +46,29 @@ width: 100%;
   width: 300px;
   height: 300px;
   align-items: center;
+  margin-top: 30px;
 }
 .description-info p{
  color: rgb(32, 113, 219);
  margin: 0px 10px 0px 10px;
  align-items: center;
- justify-content: center;
+ display: flex;
+ text-align: center;
+
+}
+.tutorial-video{
+width:100% ;
+height: auto;
+
+}
+.video-container{
+  width: 400px;
+  height: 250px;
+  background-color: aliceblue;
+
+}   
+.video-container img{
+  width: 350px;
+  height: 200px;
+  align-items:center ;
 }
